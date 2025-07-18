@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState } from 'react'
 
 function formatDate (date) {
     const day = date.getDate() < 10 ? `0${date.getDate()}` : date.getDate();
